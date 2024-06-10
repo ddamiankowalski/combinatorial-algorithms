@@ -6,7 +6,6 @@ describe('Permutation generation', () => {
     const result = permute(input);
 
     expect(result.length).toBe(6);
-    console.log(result)
     expect(result).toEqual([[1, 2, 3], [2, 1, 3], [3, 1, 2], [1, 3, 2], [2, 3, 1], [3, 2, 1]])
   })
 
